@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="mobile-toggle"><i class="fa fa-bars"></i></div>
+        <div class="nav-left name">asos</div>
+        <div class="nav-left remove">WOMEN</div>
+        <div class="nav-left remove">MEN</div>
+        
+        <div class="nav-right">
+            <div class="search">
+                <input type="text" placeholder="Search for items and brands">
+                <div class="mag"><i class="fa fa-search"></i></div>
+            </div>
+            <div class="icon mobile-search"><i class="fa fa-search"></i></div>
+            <div class="icon"><i class="fa fa-user"></i></div>
+            <div class="icon"><i class="fa fa-cart-plus"></i></div>
+            <div class="icon"><i class="fa fa-heart"></i></div>
+        </div>
+
+        <div class="mobile-nav-container">
+            <div class="mobile-nav">
+                <div class="mobile-top">
+                    <div>WOMEN</div>
+                    <div>MEN</div>
+                </div>
+                <ul class="mobile-nav-links">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">UP TO 70% OFF!</a></li>
+                    <li><a href="#">NEW IN</a></li>
+                    <li><a href="#">CLOTHING</a></li>
+                    <li><a href="#">DRESS</a></li>
+                    <li>
+                        <a href="#">
+                            <ul>
+                                <li>BEST SELLERS</li>
+                                <li>TRENDING PICS</li>
+                                <li>YOU LOVE</li>
+                            </ul>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="close-mobile-nav">x</button>
+        </div>
+    </nav>
+    <section class="top">
+        <button class="top-btn">WOMEN</button>
+        <div class="top-mid">
+            <p>25% OFF ASOS EXCLUSIVE!*</p>
+            <p>That's ASOS DESIGN, COLLUSION & more</p>
+            <p>With code: SAVINGS</p>
+        </div>
+        <button class="top-btn">MEN</button>
+    </section>
+
+    <section class="big-img">
+        <img src="./images/desktop-generic-hp_1440x698-v2.avif" alt="big-img">
+        <div class="center-big">
+            <h1>This is ASOS</h1>
+            <p>ASOS DESIGN and 850+ brands</p>
+            <div class="big-btns">
+                <a href="#women">SHOP WOMEN</a>
+                <a>SHOP MEN</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="women" class="for-women">
+        <h1 class="women-header">NEW TRENDS FOR WOMEN</h1>
+        <div class="women-products">
+            <div>
+                <div>
+                    <img src="https://images.asos-media.com/products/adidas-originals-essential-shorts-in-orchid-fusion/204438993-1-lightpink?$n_240w$&wid=168&fit=constrain" alt="product">
+                </div>
+                <div class="price">$ <span>25.00</span></div>
+                <div class="product-name">adidas Originals</div>
+                <button>ADD TO BAG</button>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="cart-header">
+        My cart
+    </h1>
+
+    <div class="main-bottom">
+
+        <ul class="my-cart">
+            <!-- <li>
+                <img src="https://images.asos-media.com/products/adidas-originals-essential-shorts-in-orchid-fusion/204438993-1-lightpink?$n_240w$&wid=168&fit=constrain" alt="product">
+                <div>adidas new flame</div>
+                <div>$ <span>45</span></div>
+                <div>
+                    <button>+</button>
+                    <span>1</span>
+                    <button>-</button>
+                </div>
+            </li> -->
+        </ul>
+
+        <div class="total">
+            <h2 class="subtotal">Subtotal(<span class="no-of-items">0</span><span class="conditional"></span>):<span>$</span><span class="subtotal-price">0</span></h2>
+
+            <button class="checkout">Proceed to checkout</button>
+        </div>
+
+    </div>
+</body>
+</html>
